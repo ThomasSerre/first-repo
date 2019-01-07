@@ -1,0 +1,149 @@
+html{
+    background-color: black;
+}
+
+#main-container {
+    display: grid;
+    grid-template-rows: 20% 50% 20% 10%;
+}
+
+header {
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    background-color: #262121;
+    text-align: center;
+}
+
+header p{
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0.5%;
+}
+
+
+section {
+    background-color: black;
+    padding-top: 2%;
+    display: grid;
+    grid-template: 10% 60% 10% 20% / repeat(3, 1fr);
+    grid-gap: 1%;
+}
+
+
+div h3 {
+    font-size: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+section div p{
+    font-size: 80%;
+    font-family:sans-serif;
+}
+
+#signup {
+    background-color: black;
+    padding-bottom: 10%; 
+    margin-top: 5%;
+}
+
+
+#signup p{
+    margin-bottom: 0;
+    padding-bottom: 5px;
+    font-size: 80%;
+}
+
+#email_zone {
+    padding: 1% 0.5%;
+    border-radius: 10px;
+    background-color: #262121;
+}
+
+#email_zone p strong{
+    padding-left: 5%;
+    font: 10px;
+}
+
+footer {
+    border-top: solid 1px white;
+    padding-left:10px;
+    margin-top: 10%;
+    background-color: black;
+    display: inline-block;
+}
+footer p, footer a{
+    font-size: 80%;
+    margin-bottom: 0;
+}
+
+
+.button1 {
+	padding:6px 0 6px 0;
+	font:13px Arial;
+	background:#478bf9;
+	color:#fff;
+	border-radius:2px;
+	width:100px;
+	border:none;
+}
+
+.button2 {
+	padding:6px 0 6px 0;
+	font:13px Arial;
+	background:rgba(71, 249, 85, 0.51);
+	color:#fff;
+	border-radius:2px;
+	width:100px;
+	border:none;
+}
+
+.button3 {
+	padding:6px 0 6px 0;
+	font:13px Arial;
+	background:#478bf9;
+	color:#fff;
+	border-radius:2px;
+	width:40%;
+	border:none;
+}
+
+.champ_texte{
+    padding:6px 0 6px 0;
+    font: 13px Arial;
+    width:40%;
+    border-radius:2px;
+    border:none;
+}
+
+.droite{
+    float: right;
+    padding-right: 5%
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    padding: 2% 2%;
+}
+
+a.hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.white{
+    color: white;
+}
+
+.grey{
+    color:#5a5151;
+}
